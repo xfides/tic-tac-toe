@@ -5,11 +5,12 @@
     "scripts": {
         "test": "mocha -r ./test/setup-mocha.js",
         "start": "webpack-dev-server",
-        "postinstall": "node postinstall.js"
+        "postinstall": "node postinstall.js",
+        "tt": "node ./src/tic-tac-toe.js"
     },
     "author": "",
     "engines": {
-      "node": "<=10"
+        "node": "<=10"
     },
     "license": "ISC",
     "devDependencies": {
